@@ -1,10 +1,9 @@
-1,25,71,7,55 4D 6F 62 69 6C 65 5F 4D 59 00 00 00
-1,25,855,7,00 00
-2,25,/nv/item_files/modem/mmode/lte_disable_duration,1,2,7,4,0
+2,25,/policyman/carrier_policy.xml,1,2,7,19906,0
 2,25,/nv/item_files/modem/mmode/sms_domain_pref,1,2,7,1,0
 2,25,/nv/item_files/modem/mmode/sms_mandatory,1,2,7,1,0
 2,25,/nv/item_files/modem/mmode/voice_domain_pref,1,2,7,1,0
 2,25,/nv/item_files/modem/mmode/ue_based_cw,1,2,7,2,0
+2,25,/nv/item_files/modem/nas/emm_nas_nv_items,1,2,7,32,0
 2,25,/nv/item_files/modem/mmode/custom_emerg_info,1,2,7,12,0
 2,25,/nv/item_files/modem/mmode/mid_call_srvcc_info,1,2,7,8,0
 2,25,/nv/item_files/modem/mmode/get_net_auto_mode,1,2,7,5,0
@@ -15,57 +14,32 @@
 1,25,909,7,02
 1,25,1016,7,01
 1,25,1017,7,02
-1,25,3006,7,17 00
+1,25,3006,7,FF 00
 1,25,3532,7,B4
 1,25,3533,7,2D
 1,25,6850,7,0F
-1,25,4722,7,03
 1,57,10,7,00 04 00
-2,25,/nv/item_files/modem/nas/emm_nas_nv_items,1,2,7,32,0
 1,25,562,7,01
 1,25,6830,7,0A
 1,25,6831,7,0A
-2,25,/sd/rat_acq_order,1,2,7,9,0
+2,25,/sd/rat_acq_order,1,2,7,10,0
 2,25,/nv/item_files/modem/mmode/supplement_service_domain_pref,1,2,7,1,0
+2,25,/nv/item_files/modem/nas/nas_srvcc_support,1,2,7,1,0
+2,25,/nv/item_files/modem/nas/nas_l2g_srvcc_support,1,2,7,1,0
 2,25,/nv/item_files/modem/mmode/wifi_config,1,2,7,11,0
 2,25,/nv/item_files/modem/sms/mmgsdi_refresh_vote_ok,1,2,7,1,0
-1,25,1918,7,40 00 00 00
-1,25,1920,7,7F FF 00 00
-2,25,/nv/item_files/gps/cgps/sm/gnss_lpp_enable,1,2,7,1,0
-2,25,/nv/item_files/gps/cgps/sm/gnss_lppe_cp_config,1,2,7,4,0
-1,25,880,7,01
-1,25,881,7,01
-1,25,882,7,00
-2,80,/nv/item_files/data/wlan_config/wlan_offload_config,1,2,7,0,0
-2,80,/nv/item_files/modem/data/3gpp/ps/modem_def_prof_support,1,2,7,0,0
-2,80,/data/ds_dsd_attach_profile.txt,1,2,7,0,0
-2,80,/data/iwlan_s2b_config.xml,1,2,7,0,0
-2,80,/data/ds_andsf_config.txt,1,2,7,0,0
-2,80,/data/default_andsf.xml,1,2,7,0,0
-2,80,/data/andsf.xml,1,2,7,0,0
-2,80,/Data_Profiles/Profile1,1,2,7,0,0
-2,80,/Data_Profiles/Profile2,1,2,7,0,0
-2,80,/Data_Profiles/Profile3,1,2,7,0,0
-2,80,/nv/item_files/modem/data/3gpp/dsmgr/emergency_apn_type,1,2,7,0,0
-2,25,/nv/item_files/data/wlan_config/wlan_offload_config,1,2,7,1,0
-2,25,/data/iwlan_s2b_config.xml,1,2,7,2195,0
-2,25,/data/default_andsf.xml,1,2,7,2140,0
-2,25,/data/andsf.xml,1,2,7,2140,0
-2,25,/data/ds_andsf_config.txt,1,2,7,314,0
-2,25,/data/ds_dsd_attach_profile.txt,1,2,7,21,0
-2,25,/Data_Profiles/Profile1,1,2,7,101,0
-2,25,/Data_Profiles/Profile2,1,2,7,71,0
-2,25,/Data_Profiles/Profile3,1,2,7,71,0
-2,25,/Data_Profiles/Profile4,1,2,7,60,0
-2,25,/nv/item_files/modem/data/3gpp/dsmgr/emergency_apn_type,1,2,7,4,0
+1,25,855,7,00 00
+2,25,/nv/item_files/modem/lte/rrc/cap/diff_fdd_tdd_fgi_enable,1,2,7,1,0
+2,25,/efsprofiles/overideconfig,1,2,7,912,0
 2,25,/nv/item_files/ims/IMSVoiceDynamicConfig,1,2,7,1024,0
+2,25,/nv/item_files/ims/qp_ims_qos_precondition,1,2,7,1024,0
 2,25,/nv/item_files/ims/IMSVideoDynamicConfig,1,2,7,1024,0
 2,25,/nv/item_files/ims/IMSEmerDynamicConfig,1,2,7,1024,0
 2,25,/nv/item_files/ims/IMSRTPDynamicConfig,1,2,7,1024,0
 2,25,/nv/item_files/ims/IMSCodecDynamicConfig,1,2,7,1024,0
 2,25,/nv/item_files/ims/IMSTestDynamicConfig,1,2,7,1024,0
 2,25,/nv/item_files/ims/IMSWifiDynamicConfig,1,2,7,1024,0
-2,25,/ims/imshandoverconfig,1,2,7,2292,0
+2,25,/ims/imshandoverconfig,1,2,7,353,0
 2,25,/nv/item_files/ims/qp_ims_plani_config,1,2,7,128,0
 2,25,/nv/item_files/ims/ims_sip_config,1,2,7,1024,0
 2,25,/nv/item_files/ims/qp_ims_cap_discovery_config,1,2,7,1024,0
@@ -77,10 +51,54 @@
 2,25,/nv/item_files/ims/ims_operation_mode,1,2,7,1,0
 2,25,/nv/item_files/ims/qp_ims_service_enablement_config,1,2,7,1024,0
 2,25,/nv/item_files/ims/qp_ims_common_config,1,2,7,1024,0
+2,25,/nv/item_files/ims/SMSoIP_UsagePolicy,1,2,7,1024,0
 2,25,/nv/item_files/ims/qp_ims_reg_config_db,1,2,7,1024,0
 2,25,/nv/item_files/ims/RegistrationConfiguration,1,2,7,1024,0
 2,25,/nv/item_files/ims/SMSConfiguration,1,2,7,1024,0
 2,25,/nv/item_files/ims/DANConfiguration,1,2,7,1024,0
 2,25,/nv/item_files/ims/qp_ims_xcap_common_config,1,2,7,1024,0
 2,25,/nv/item_files/ims/qp_ims_ut_config_item,1,2,7,1024,0
-10,0,,161,120,4D 43 46 47 5F 54 52 4C 00 02 00 00 01 01 04 00 00 3D 01 08 03 1B 00 55 4D 6F 62 69 6C 65 5F 43 6F 6D 6D 65 72 63 69 61 6C 5F 4D 61 6C 61 79 73 69 61 04 06 00 00 01 12 AC 0D 00 05 04 00 00 3D 01 08 06 06 00 00 01 F6 01 12 00 07 04 00 14 00 00 00 08 20 00 76 F5 25 42 FE C4 2F 56 42 20 1E C4 16 29 87 42 AE 8E BC D2 FA A9 43 A2 A4 78 C2 8A 47 AF 1E 7C 09 00 00 00 89 00 00
+1,25,880,7,01
+1,25,881,7,01
+1,25,882,7,00
+2,25,/nv/item_files/wcdma/l1/wl1_nb_rejection_nv,1,2,7,8,0
+1,25,1918,7,40 00 00 00
+1,25,1920,7,7F FF 00 00
+2,25,/nv/item_files/gps/cgps/sm/gnss_lpp_enable,1,2,7,1,0
+1,25,71,7,55 4D 6F 62 69 6C 65 5F 4D 59 00 00 00
+2,25,/nv/item_files/data/wlan_config/wlan_offload_config,1,2,7,1,0
+2,25,/data/iwlan_s2b_config.xml,1,2,7,2195,0
+2,25,/data/default_andsf.xml,1,2,7,1341,0
+2,25,/data/andsf.xml,1,2,7,1341,0
+2,25,/data/ursp/preconfigured_ursp_policy.xml,1,2,7,1733,0
+2,25,/data/ds_andsf_config.txt,1,2,7,314,0
+2,25,/data/ds_dsd_attach_profile.txt,1,2,7,21,0
+2,25,/Data_Profiles/Profile1,1,2,7,101,0
+2,25,/Data_Profiles/Profile2,1,2,7,71,0
+2,25,/Data_Profiles/Profile3,1,2,7,71,0
+2,25,/Data_Profiles/Profile4,1,2,7,60,0
+2,25,/nv/item_files/modem/data/3gpp/dsmgr/emergency_apn_type,1,2,7,4,0
+1,57,848,7,00 02 00
+1,57,441,7,00 87 03
+1,57,946,7,00 E8 06
+1,57,2954,7,00 00 00 06 10
+2,25,/nv/item_files/modem/mmode/lte_bandpref,1,2,7,8,0
+2,25,/nv/item_files/modem/nas/reg_nv_items,1,2,7,27,0
+2,25,/nv/item_files/modem/nas/suppress_add_update_param,1,2,7,1,0
+1,25,4628,7,48 00
+1,25,4631,7,01
+1,25,3851,7,03
+1,25,818,7,01
+1,25,1018,7,91 6C
+2,25,/nv/item_files/modem/geran/read_pch_during_transfer_whitelist,1,2,7,9,0
+2,25,/nv/item_files/modem/lte/rrc/cap/disable_cap_ies,1,2,7,8,0
+2,25,/nv/item_files/wcdma/rrc/wcdma_rrc_idle_feature,1,2,7,4,0
+2,25,/nv/item_files/wcdma/rrc/rrc_b66_plmn_support,1,2,7,7,0
+2,25,/nv/item_files/wcdma/rrc/wcdma_rrc_fast_return_to_lte_after_csfb,1,2,7,1,0
+2,25,/nv/item_files/modem/data/3gpp/lteps/disable_apn_matching,1,2,7,1,0
+1,25,1930,7,02
+2,25,/nv/item_files/gps/cgps/sm/gnss_nv_efs_sm_e911_config,1,2,7,4,0
+2,25,/SUPL/Google_Equifax_security_certificate_authority.cer,1,2,7,804,0
+2,25,/SUPL/GoogleSuplCertificateGeo.cer,1,2,7,856,0
+2,25,/SUPL/GoogleSuplCertificateGeoNew.cer,1,2,7,958,0
+10,0,,161,120,4D 43 46 47 5F 54 52 4C 00 02 00 00 01 01 04 00 02 3D 01 0A 03 1B 00 55 4D 6F 62 69 6C 65 5F 43 6F 6D 6D 65 72 63 69 61 6C 5F 4D 61 6C 61 79 73 69 61 04 06 00 00 01 12 AC 0D 00 05 04 00 02 3D 01 0A 06 06 00 00 01 F6 01 12 00 07 04 00 14 00 00 00 08 20 00 1C 38 3D 8A 8E 51 6E 55 CE 7B 98 0D 5E 43 90 95 8E 92 29 0C F5 2B E8 62 78 65 87 3C B6 B9 F3 ED 09 00 00 00 00 00 8B

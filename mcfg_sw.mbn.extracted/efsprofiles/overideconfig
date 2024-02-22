@@ -1,0 +1,35 @@
+[QIPCALL:ImsVoiceSuppsConfig]
+
+#This config is required to configure the dialog for the conference event subscribe request.
+
+*confEvtSubOutOfDialog = 0
+
+[QIPCALL:ImsMediaProfileConfig]
+
+#This config is required to audio codec profile list.
+
+*AudioProfile1 = "AMR_1_104;AMR_0_102"
+
+[QIPCALL:AMR_1]
+
+#This config is modeset. 511 (if all 0-8 bits are required 1 1111 1111)
+
+*ModeSet = 511
+
+[QIPCALL:AMR_0]
+
+#This config is modeset. 255 (if all 0-7 bits are required 1111 1111)
+
+*ModeSet = 255
+
+[QIPCALL:ImsVoiceSessionTimerConfig]
+
+#This config is required to configure the method for session
+#referesh shall be REINVITE/UPDATE.
+#
+#Possible enum values are as follows:
+#QP_CONFIG_SES_REFRESH_UNKNOWN = -1,   UNKNOWN
+#QP_CONFIG_SES_REFRESH_INVITE,         INVITE will be the refresh method used
+#QP_CONFIG_SES_REFRESH_UPDATE
+
+*sessionRefresherMethod = QP_CONFIG_SES_REFRESH_UPDATE
